@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header id="navbar">
+    <h1>LION'S DEN </h1>
+    
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#Transmision"> Transmision</a>
+      <a href="#packages">Plans</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h2>ONLINE <br>Personal Training.</h2>
+      <p>Your body can stand almost anything. It’s your mind you have to convince.</p>
+      <button>Join Now</a></button>
+    </div>
+  </section>
+
+  <!-- client -->
+  <section id="transform">
+    <h2>Client Transformations</h2>
+    <div class="slider-container">
+        <div class="slider" id="slider">
+            <img src="client1.png" alt="Transformation 1">
+            <img src="client2.png" alt="Transformation 2">
+            <img src="client3.png" alt="Transformation 3">
+            <img src="client4.png" alt="Transformation 4">
+            <img src="client5.png" alt="Transformation 4">
+            <img src="client6.png" alt="Transformation 4">
+            <img src="client7.png" alt="Transformation 4">
+        </div>
+        <div class="slider-buttons">
+            <button id="prev">Prev</button>
+            <button id="next">Next</button>
+        </div>
+    </div>
+</section>
+
+<!-- Lightbox Modal -->
+<div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img">
+</div>
+
+
+
+
+
+
+<!-- service section -->
+
+  <section class="service_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Our Services
+        </h2>
+      </div>
+      
+      <div class="service_container">
+        <div class="box">
+          <img src="s-1.jpg" alt="">
+          <h6 class="visible_heading">
+            CROSSFIT TRAINING
+          </h6>
+          <div class="link_box">
+            <a href="">
+              <img src="link.png" alt="">
+            </a>
+            <h6>
+              CROSSFIT TRAINING
+            </h6>
+          </div>
+        </div>
+        <div class="box">
+          <img src="s-2.webp" alt="">
+          <h6 class="visible_heading">
+            FITNESS
+          </h6>
+          <div class="link_box">
+            <a href="">
+              <img src="link.png" alt="">
+            </a>
+            <h6>
+              FITNESS
+            </h6>
+          </div>
+        </div>
+        <div class="box">
+          <img src="s-3.jpg" alt="">
+          <h6 class="visible_heading">
+            DYNAMIC STRENGTH TRAINING
+          </h6>
+          <div class="link_box">
+            <a href="">
+              <img src="link.png" alt="">
+            </a>
+            <h6>
+              DYNAMIC STRENGTH TRAINING
+            </h6>
+          </div>
+        </div>
+        <div class="box">
+          <img src="s-4.jpg" alt="">
+          <h6 class="visible_heading">
+            HEALTH
+          </h6>
+          <div class="link_box">
+            <a href="">
+              <img src="link.png" alt="">
+            </a>
+            <h6>
+              HEALTH
+            </h6>
+          </div>
+        </div>
+        <div class="box">
+          <img src="s-5.jpg" alt="">
+          <h6 class="visible_heading">
+            WORKOUT
+          </h6>
+          <div class="link_box">
+            <a href="">
+              <img src="link.png" alt="">
+            </a>
+            <h6>
+              WORKOUT
+            </h6>
+          </div>
+        </div>
+        <div class="box">
+          <img src="s-6.jpg" alt="">
+          <h6 class="visible_heading">
+            STRATEGIES
+          </h6>
+          <div class="link_box">
+            <a href="">
+              <img src="link.png" alt="">
+            </a>
+            <h6>
+              STRATEGIES
+            </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <!-- PACKAGES -->
+<section class="packages" id="packages">
+  <h2>personal Training Packages</h2>
+
+  <div class="package-grid">
+
+    <div class="package-card">
+      <img src="p9.jpg">
+    
+      <p>✔ 3 Days / Week<br>✔ Diet Plan<br>✔ Workout Plan</p>
+      <h4>Rs. 3000 / Month</h4>
+      <button onclick="buyPackage('BASIC')">Buy Package</button>
+    </div>
+
+    <div class="package-card">
+      <img src="p10.jpg">
+      
+      <p>✔ 5 Days / Week<br>✔ Custom Diet<br>✔ Personal Coaching</p>
+      <h4>Rs. 5000 / Month</h4>
+      <button onclick="buyPackage('BRONZE')">Buy Package</button>
+    </div>
+
+    <div class="package-card">
+      <img src="p12.jpg">
+  
+      <p>✔ Online Support<br>✔ Home Workouts<br>✔ Progress Tracking</p>
+      <h4>Rs. 7,500 / Month</h4>
+      <button onclick="buyPackage('GOLD')">Buy Package</button>
+    </div>
+
+      <div class="package-card">
+      <img src="p11.jpg">
+      <p>✔ Online Support<br>✔ Home Workouts<br>✔ Progress Tracking</p>
+      <h4>Rs. 9999 / Month</h4>
+      <button onclick="buyPackage('PREMIUM')">Buy Package</button>
+    </div>
+
+  </div>
+</section>
+
+  <!-- Contact -->
+  <section class="contact reveal" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: lionsden@gmil.com</p>
+  </section>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
